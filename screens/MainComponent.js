@@ -1,7 +1,17 @@
-import { Image, Platform, StyleSheet, Text, View } from 'react-native';
+import {
+    Image,
+    Platform,
+    StyleSheet,
+    Text,
+    View
+} from 'react-native';
 import Constants from 'expo-constants';
 import { createStackNavigator } from '@react-navigation/stack';
-import { createDrawerNavigator, DrawerContentScrollView, DrawerItemList } from '@react-navigation/drawer';
+import {
+    createDrawerNavigator,
+    DrawerContentScrollView,
+    DrawerItemList
+} from '@react-navigation/drawer';
 import CampsiteInfoScreen from './CampsiteInfoScreen';
 import DirectoryScreen from './DirectoryScreen';
 import HomeScreen from './HomeScreen';

@@ -1,5 +1,12 @@
 import { useState } from 'react';
-import { FlatList, StyleSheet, Text, View, Button, Modal } from 'react-native';
+import {
+    FlatList,
+    StyleSheet,
+    Text,
+    View,
+    Button,
+    Modal
+} from 'react-native';
 import RenderCampsite from '../features/campsites/RenderCampsites';
 import { useSelector } from 'react-redux';
 import { useDispatch } from 'react-redux';
